@@ -109,6 +109,7 @@
     <Content Include="bonus_coordinate_assignment_1.aspx" />
     <Content Include="bonus_raffle_bundle_assignment_3.aspx" />
     <Content Include="bonus_weekly_calendar_assignment_2.aspx" />
+    <Content Include="bonus_weekly_calendar_assignment_initiative_version.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -192,6 +193,13 @@
     </Compile>
     <Compile Include="bonus_weekly_calendar_assignment_2.aspx.designer.cs">
       <DependentUpon>bonus_weekly_calendar_assignment_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bonus_weekly_calendar_assignment_initiative_version.aspx.cs">
+      <DependentUpon>bonus_weekly_calendar_assignment_initiative_version.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bonus_weekly_calendar_assignment_initiative_version.aspx.designer.cs">
+      <DependentUpon>bonus_weekly_calendar_assignment_initiative_version.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
