@@ -43,8 +43,8 @@ namespace n01352022_bonus_assignment
                             Weekly_Schedule_Busy_Days[Convert.ToInt32(weekly_schedule_busy_days.Value)] = true;
                         }
                     }
-                   //Set the opening message of the schedule display, this will also reset the schedule display if the user resubmits the page.
-                   weekly_schedule_display_box.InnerHtml = "Here is your schedule:<br>";
+                    //Set the opening message of the schedule display, this will also reset the schedule display if the user resubmits the page.
+                    weekly_schedule_display_box.InnerHtml = "Here is your schedule:<br>";
                     //Set the month to an integer as a length indicator for the while loop
                     int Schedule_Month = (int)Schedule_Date_Input.Month;
                     //Set a while loop using the stored Schedule_Month to indicate when to end the while loop
